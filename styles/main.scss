@@ -21,7 +21,7 @@ $facebook-blue: #1877f2;
 body {
 	font-size: 62.5%;
 	line-height: 1.7;
-	font-family: "Poppins", sans-serif;
+	font-family: "arial", sans-serif;
 	background-color: $body-color;
 }
 
@@ -33,17 +33,20 @@ body {
 	align-items: center;
 	// place-items: center;
 	// place-content: center;
+	gap: 3rem;
 }
 
 .brand {
+	padding-bottom: 3rem;
+	max-width: 600px;
 	&-logo {
 		width: 20rem;
 		height: 6rem;
 	}
 	&-title {
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 		font-weight: 500;
-		line-height: 1.25;
+		line-height: 1.2;
 		padding: 0px 2rem;
 	}
 }

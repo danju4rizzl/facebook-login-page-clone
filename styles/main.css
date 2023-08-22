@@ -9,7 +9,7 @@
 body {
   font-size: 62.5%;
   line-height: 1.7;
-  font-family: "Poppins", sans-serif;
+  font-family: "arial", sans-serif;
   background-color: #f0f2f5;
 }
 
@@ -19,16 +19,21 @@ body {
   grid-auto-flow: column;
   justify-content: center;
   align-items: center;
+  gap: 3rem;
 }
 
+.brand {
+  padding-bottom: 3rem;
+  max-width: 600px;
+}
 .brand-logo {
   width: 20rem;
   height: 6rem;
 }
 .brand-title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 500;
-  line-height: 1.25;
+  line-height: 1.2;
   padding: 0px 2rem;
 }
 
