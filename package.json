@@ -1,0 +1,12 @@
+{
+  "name": "facebook-login-page-v2",
+  "version": "1.2.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass ./styles/main.scss ./styles/main.css",
+    "watch": "sass --watch ./styles/main.scss ./styles/main.css"
+  },
+  "author": "Deejay dev",
+  "license": "MIT"
+}

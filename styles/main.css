@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/* Deejay's default SASS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f2f5;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 20rem;
+  height: 6rem;
+}
+.brand-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.25;
+  padding: 0px 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
