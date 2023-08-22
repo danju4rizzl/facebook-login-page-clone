@@ -1,0 +1,10 @@
+.container {
+	height: 100vh;
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: center;
+	align-items: center;
+	// place-items: center;
+	// place-content: center;
+	gap: 3rem;
+}

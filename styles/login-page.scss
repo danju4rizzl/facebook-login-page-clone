@@ -1,0 +1,14 @@
+.brand {
+	padding-bottom: 3rem;
+	max-width: 600px;
+	&-logo {
+		width: 20rem;
+		height: 6rem;
+	}
+	&-title {
+		font-size: 1.8rem;
+		font-weight: 500;
+		line-height: 1.2;
+		padding: 0px 2rem;
+	}
+}
